@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import PageHeader from './components/PageHeader'
 
 function App() {
 
   return (
-    <>
-      <div>Youtube</div>
-    </>
+    <div className='max-h-screen flex flex-col'>
+      <PageHeader />
+      <div>2</div>
+    </div>
   )
 }
 
