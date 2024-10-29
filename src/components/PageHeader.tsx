@@ -6,7 +6,6 @@ import { useSideBarContext } from "../contexts/Context"
  
 const PageHeader = () => {
     const [showFullWidthSearch, setShowFullWidthSearch] = useState(false);
-    const { toggle } = useSideBarContext()
     return (
         <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-6 mx-4">
             <PageHeaderFirstSection hidden={showFullWidthSearch}/>
